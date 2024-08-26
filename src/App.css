@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  position: relative;
+}
+.container {
+  min-width: 900px;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sample {
+  width: 350px;
+  position: absolute;
+  top: 80px;
+  right: 400px;
+}
+
+.model {
+  position: absolute;
+}
+
+.btns {
+  position: absolute;
+  bottom: 60px;
+  z-index: 9;
+  background-color: #dadada;
+  border-radius: 8px;
+}
